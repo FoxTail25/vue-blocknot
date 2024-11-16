@@ -1,5 +1,5 @@
 <script setup>
-import Ta from './components/ta.vue'
+import Blocknot from './components/BlockNotTA.vue'
 </script>
 <script>
 export default {
@@ -73,7 +73,7 @@ export default {
 		</ul>
 	</aside>
 	<main>
-		<Ta :id="active_post?.id" :title="active_post?.title" :post="active_post?.post" @changePost="changePost" />
+		<Blocknot :id="active_post?.id" :title="active_post?.title" :post="active_post?.post" @changePost="changePost" />
 	</main>
 </template>
 

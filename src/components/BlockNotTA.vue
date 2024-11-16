@@ -26,12 +26,7 @@ export default {
 			this.isEdit = !this.isEdit
 		}
 	},
-	computed: {
-		test: function () {
-			this.inp = this.post
-			return this.inp
-		}
-	},
+
 
 }
 </script>
